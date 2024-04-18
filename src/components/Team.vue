@@ -50,7 +50,7 @@ const teamItems = ref([
         <template v-for="(item, index) in teamItems" :key="index">
           <div class="w-full px-4 md:w-1/2 xl:w-1/4">
             <div class="mx-auto mb-10 w-full max-w-[370px]">
-              <div class="overflow-hidden rounded-lg">
+              <div class="relative overflow-hidden rounded-lg">
                 <img :src="item.image" alt="image" class="w-full" />
                 <div class="absolute bottom-5 left-0 w-full text-center">
                   <div

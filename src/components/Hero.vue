@@ -96,7 +96,7 @@ const clients = ref([
         <div class="hidden px-4 lg:block lg:w-1/12"></div>
         <div class="w-full px-4 lg:w-6/12">
           <div class="lg:ml-auto lg:text-right">
-            <div class="relative z-10 inline-block pt-11 lg:pt-0">
+            <div class="z-10 inline-block pt-11 lg:pt-0">
               <img
                 src="https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-image-01.png"
                 alt="hero"
