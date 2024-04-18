@@ -26,7 +26,7 @@ const clients = ref([
     <div class="container mx-auto">
 
       <div class="flex flex-wrap items-center -mx-4">
-        <div class="w-full px-4 lg:w-5/12">
+        <div class="w-full px-8 lg:w-5/12">
           <div class="hero-content">
             <h1
               class="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
@@ -78,27 +78,16 @@ const clients = ref([
           <div class=" lg:text-right">
             <div class="z-10 inline-block pt-11 lg:pt-0">
 
-              <div
-                class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[454px] max-w-[341px] md:h-[682px] md:max-w-[512px]">
-                <div
-                  class="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[72px] rounded-s-lg">
-                </div>
-                <div
-                  class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg">
-                </div>
-                <div
-                  class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg">
-                </div>
-                <div
-                  class="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg">
-                </div>
-                <div class="rounded-[2rem] overflow-hidden h-[426px] md:h-[654px] bg-white dark:bg-gray-800">
-                  <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/tablet-mockup-image.png"
-                    class="dark:hidden h-[426px] md:h-[654px]" alt="">
-                  <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/tablet-mockup-image-dark.png"
-                    class="hidden dark:block h-[426px] md:h-[654px]" alt="">
-                </div>
-              </div>
+             
+<div class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[16px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
+  <div class="rounded-xl overflow-hidden h-[140px] md:h-[262px]">
+      <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/screen-image-imac.png" class="dark:hidden h-[140px] md:h-[262px] w-full rounded-xl" alt="">
+      <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/screen-image-imac-dark.png" class="hidden dark:block h-[140px] md:h-[262px] w-full rounded-xl" alt="">
+  </div>
+</div>
+<div class="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl h-[24px] max-w-[301px] md:h-[42px] md:max-w-[512px]"></div>
+<div class="relative mx-auto bg-gray-800 rounded-b-xl h-[55px] max-w-[83px] md:h-[95px] md:max-w-[142px]"></div>
+
 
               <span class="absolute -left-8 -bottom-8 z-[-1]">
                 <svg width="93" height="93" viewBox="0 0 93 93" fill="none" xmlns="http://www.w3.org/2000/svg">
