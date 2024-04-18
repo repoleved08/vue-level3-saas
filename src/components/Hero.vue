@@ -22,8 +22,9 @@ const clients = ref([
 
 <template>
   <!-- ====== Hero Section Start -->
-  <div class=" bg-white dark:bg-dark pt-[120px] pb-[110px] lg:pt-[150px]">
+  <div class=" bg-white dark:bg-dark pt-[120px] pb-[110px] lg:pt-[70px]">
     <div class="container mx-auto">
+      
       <div class="flex flex-wrap items-center -mx-4">
         <div class="w-full px-4 lg:w-5/12">
           <div class="hero-content">

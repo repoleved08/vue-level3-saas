@@ -7,6 +7,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require("tailgrids/plugin")],
+  plugins: [require("tailgrids/plugin"), require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }
 

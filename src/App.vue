@@ -7,11 +7,15 @@ import Pricing from './components/Pricing.vue';
 import Team from './components/Team.vue';
 import Faqs from './components/Faqs.vue';
 import Testimonials from './components/Testimonials.vue';
+import Newsletter from './components/Newsletter.vue';
+import Banner from './components/Banner.vue';
 </script>
 
 <template>
   <header>
+    <Banner />
     <Navbar />
+   
   </header>
   <main>
     <Hero />
@@ -20,6 +24,7 @@ import Testimonials from './components/Testimonials.vue';
     <Team />
     <Faqs />
     <Testimonials />
+    <Newsletter />
   </main>
 
   <RouterView />
