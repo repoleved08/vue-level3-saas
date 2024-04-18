@@ -33,7 +33,7 @@ onUnmounted(() => {
 
 <template>
   <header
-    class="fixed top-0 flex w-full items-center bg-white dark:bg-gray-700 backdrop-filter backdrop-blur-md bg-opacity-90"
+    class="relative top-0 flex w-full items-center bg-white dark:bg-gray-700 backdrop-filter backdrop-blur-md bg-opacity-90"
   >
     <div class="container">
       <div class="relative -mx-4 flex items-center justify-between">

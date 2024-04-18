@@ -13,11 +13,10 @@ import Banner from './components/Banner.vue';
 
 <template>
   <header>
-    <Banner />
     <Navbar />
-   
   </header>
   <main>
+    <Banner />
     <Hero />
     <Features />
     <Pricing />
