@@ -9,6 +9,7 @@ import Faqs from './components/Faqs.vue';
 import Testimonials from './components/Testimonials.vue';
 import Newsletter from './components/Newsletter.vue';
 import Banner from './components/Banner.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -24,6 +25,7 @@ import Banner from './components/Banner.vue';
     <Faqs />
     <Testimonials />
     <Newsletter />
+    <Footer />
   </main>
 
   <RouterView />
